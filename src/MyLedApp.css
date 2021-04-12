@@ -1,0 +1,38 @@
+.led-container{
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.btn{
+    width: 8rem;
+    height: 8rem;
+    outline: none;
+    border-radius: 100%;
+    border: none;
+    background-color: red;
+    font-size: 2rem;
+    color: white;
+    text-shadow: 1px 1px 1px #440101;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    box-shadow: 0 5px 5px rgba(0,0,0, 0.5) ;
+    margin: 1rem 0;
+}
+.btnOn{
+    background-color: teal;
+    color: white;
+    text-shadow: 1px 1px 1px rgb(1, 72, 72);
+}
+
+.btn:hover{
+    background-color: #f52b2b;
+}
+
+.btnOn:hover{
+    background-color: rgb(4, 187, 187);
+}
